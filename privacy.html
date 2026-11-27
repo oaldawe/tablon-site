@@ -84,6 +84,14 @@ a { color: var(--link); }
 <p>إن فعّلت قفل الوثائق يتحقق جهازك منك: ببصمة الوجه أو الإصبع أو رمز الجهاز في تطبيق iPhone، وببصمة الإصبع أو الوجه أو قفل الشاشة في تطبيق Android. التحقق يجريه النظام، ولا يصل إلى التطبيق سوى نتيجته.</p>
 <h2>التنبيهات</h2>
 <p>تنبيهات التذكيرات والوثائق محلية: يجدولها التطبيق على جهازك ولا تمرّ بأي خادم.</p>
+<h2>الاستدعاءات</h2>
+<p>في تطبيق iPhone، يبحث التطبيق عن الاستدعاءات التي قد تشمل سياراتك، مرة في اليوم على الأكثر، من مصدرين:</p>
+<ul>
+<li>خدمة الاستدعاءات لدى الإدارة الوطنية الأمريكية لسلامة المرور على الطرق السريعة (NHTSA). يرسل إليها التطبيق الشركة المصنّعة والموديل وسنة الصنع لكل سيارة، ولا شيء غير ذلك: لا حسابك ولا رقم الهيكل ولا رقم اللوحة. وترى الخدمة عنوان IP لجهازك، كما يراه أي موقع تتصل به.</li>
+<li>قائمة ننشرها على موقعنا. يقرؤها التطبيق كاملة ويطابقها على جهازك، فلا يعرف الموقع أي سيارة لديك.</li>
+</ul>
+<p>الاستدعاءات التي جُلبت، وما تجيب به عنها («تم الإصلاح» أو «لا يشمل سيارتي»)، تُحفظ على جهازك فقط ولا تصل إلى خادمنا. والتنبيه باستدعاء جديد محلي كبقية التنبيهات.</p>
+<p>زر «التحقق برقم الهيكل» ينسخ الرقم إن طلبت ويفتح صفحة «مطابق» التابعة لهيئة التقييس لدول مجلس التعاون في متصفحك. التطبيق نفسه لا يرسل رقم الهيكل إلى أي جهة: أنت من يلصقه هناك إن شئت.</p>
 <h2>الاشتراك والمدفوعات</h2>
 <p>في تطبيق iPhone، عمليات الشراء تتم عبر App Store وتعالجها Apple. لا نستلم اسمك ولا بيانات بطاقتك ولا أي بيانات دفع. يعرف التطبيق على جهازك من App Store حالة اشتراكك فقط، ليفتح المزايا المدفوعة.</p>
 <p>قد تزوّدنا Apple بإحصاءات مجمّعة عن التطبيق، مثل عدد مرات التنزيل والمبيعات، وبتقارير الأعطال من المستخدمين الذين وافقوا على مشاركتها مع المطوّرين. هذه الإحصاءات لا تعرّف بك.</p>
@@ -108,6 +116,8 @@ a { color: var(--link); }
 <li><strong>Cloudflare:</strong> ترسل رسالة رمز الدخول إلى بريدك.</li>
 <li><strong>Apple:</strong> الدخول بحساب Apple، وiCloud إن اخترته لوثائقك وصورك، وعمليات الشراء.</li>
 <li><strong>Google:</strong> الدخول بحساب Google، وGoogle Drive إن اخترته لوثائقك وصورك، والخريطة حين تفتحها. وفي تطبيق أندرويد ما ذُكر في قسمه عن برنامج الفوترة وبرنامج قراءة النصوص من Google.</li>
+<li><strong>الإدارة الوطنية الأمريكية لسلامة المرور على الطرق السريعة (NHTSA):</strong> تتلقى الشركة المصنّعة والموديل وسنة الصنع حين يبحث تطبيق iPhone عن الاستدعاءات.</li>
+<li><strong>GitHub:</strong> تستضيف موقعنا، ومنه قائمة الاستدعاءات التي يقرؤها تطبيق iPhone.</li>
 </ul>
 <p>حين تصدّر سجل السيارة بصيغة PDF يُنشأ الملف على جهازك، وأنت من يختار أين يُحفظ ومع من يُشارَك.</p>
 <h2>الاحتفاظ بالبيانات وحذفها</h2>
@@ -186,6 +196,14 @@ a { color: var(--link); }
 <p>If you turn on the documents lock, your device checks that it is you: with Face ID, Touch ID or the device passcode in the iPhone app, and with your fingerprint, your face or the screen lock in the Android app. The system does the check, and the app learns only its result.</p>
 <h2>Notifications</h2>
 <p>Notifications for reminders and documents are local: the app schedules them on your device and they pass through no server.</p>
+<h2>Recalls</h2>
+<p>In the iPhone app, the app looks for recalls that may cover your vehicles, at most once a day, in two sources:</p>
+<ul>
+<li>The recall service of the United States' National Highway Traffic Safety Administration (NHTSA). The app sends it the make, the model and the model year of each vehicle and nothing else: not your account, not the VIN, not the plate. The service sees your device's IP address, as any site you connect to does.</li>
+<li>A list we publish on our site. The app reads it whole and matches it on your device, so the site does not learn which vehicle you have.</li>
+</ul>
+<p>The recalls that were fetched, and what you answer about them ("Fixed" or "Doesn't cover my car"), are kept on your device only and do not reach our server. The notification of a new recall is local, like the others.</p>
+<p>The "Check by VIN" button copies the number if you ask and opens the Mutabiq page of the GCC Standardization Organization in your browser. The app itself sends the VIN to no one: you paste it there if you wish.</p>
 <h2>Subscription and payments</h2>
 <p>In the iPhone app, purchases are made through the App Store and processed by Apple. We do not receive your name, your card details or any payment data. On your device, the app learns from the App Store only whether you have a subscription, so that it can open the paid features.</p>
 <p>Apple may give us aggregate statistics about the app, such as the number of downloads and sales, and crash reports from users who agreed to share them with developers. These statistics do not identify you.</p>
@@ -210,6 +228,8 @@ a { color: var(--link); }
 <li><strong>Cloudflare:</strong> sends the sign-in code to your email.</li>
 <li><strong>Apple:</strong> signing in with Apple, iCloud if you choose it for your documents and photos, and purchases.</li>
 <li><strong>Google:</strong> signing in with Google, Google Drive if you choose it for your documents and photos, and the map when you open it; and, in the Android app, what its section says about Google's billing software and its text reading software.</li>
+<li><strong>The United States' National Highway Traffic Safety Administration (NHTSA):</strong> receives a make, a model and a model year when the iPhone app looks for recalls.</li>
+<li><strong>GitHub:</strong> hosts our site, and with it the list of recalls the iPhone app reads.</li>
 </ul>
 <p>When you export the vehicle record as a PDF, the file is created on your device, and you choose where it is saved and with whom it is shared.</p>
 <h2>Keeping and deleting data</h2>
