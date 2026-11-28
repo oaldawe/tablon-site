@@ -1,0 +1,60 @@
+# Once a day, reads Kuwait's Ministry of Commerce and Industry's page of vehicle recalls and
+# opens a pull request with what is new. Nothing reaches the app until it is merged. While
+# one such pull request is open, the reader waits, so that a person's corrections in it are
+# never written over.
+name: Kuwait recalls
+
+on:
+  schedule:
+    - cron: "0 3 * * *" # 06:00 in Kuwait
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: kuwait-recalls
+
+jobs:
+  collect:
+    runs-on: macos-15
+    timeout-minutes: 30
+    env:
+      GH_TOKEN: ${{ github.token }}
+      BRANCH: kuwait-recalls
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Wait while a pull request is open
+        id: waiting
+        run: echo "open=$(gh pr list --head "$BRANCH" --state open --json number --jq length)" >> "$GITHUB_OUTPUT"
+
+      - name: Test the rules
+        if: steps.waiting.outputs.open == '0'
+        run: python3 -m unittest discover -s collector/tests -v
+
+      - name: Build the picture reader
+        if: steps.waiting.outputs.open == '0'
+        run: swiftc -O collector/kuwait/ocr.swift -o "$RUNNER_TEMP/ocr"
+
+      - name: Read the page
+        if: steps.waiting.outputs.open == '0'
+        run: python3 collector/kuwait/collect.py fetch --ocr "$RUNNER_TEMP/ocr" --summary "$RUNNER_TEMP/summary.md"
+
+      - name: Open a pull request with what is new
+        if: steps.waiting.outputs.open == '0'
+        run: |
+          if [ -z "$(git status --porcelain)" ]; then
+            echo "Nothing new."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git switch -c "$BRANCH"
+          git add collector/kuwait/seen.json recalls.json
+          git commit -m "Kuwait recalls read on $(date -u +%F)"
+          git push --force origin "$BRANCH"
+          gh pr create --base main --head "$BRANCH" \
+            --title "Kuwait recalls read on $(date -u +%F)" \
+            --body-file "$RUNNER_TEMP/summary.md"

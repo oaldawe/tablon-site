@@ -1,0 +1,2523 @@
+{
+ "about": "The app's vehicle list (Resources/vehicles.json in the app's repository), copied as it is under \"makes\", with the other names the ministry writes some makes and models by under \"aliases\" (make id, then model id, or \"\" for the make itself). Copy the list again when the app's list changes; the aliases are kept by hand.",
+ "aliases": {
+  "toyota": {
+   "land-cruiser": [
+    "LC300",
+    "LC 300",
+    "LC200",
+    "LC 200",
+    "لاند كروزر"
+   ],
+   "prado": [
+    "Land Cruiser Prado",
+    "Landcruiser Prado",
+    "لاندكروزر برادو"
+   ]
+  },
+  "mercedes-benz": {
+   "": [
+    "مرسيدس بنز",
+    "Mercedes"
+   ],
+   "g-class": [
+    "G Class",
+    "465",
+    "463",
+    "الفئة جي"
+   ]
+  },
+  "infiniti": {
+   "qx50": [
+    "كيو اكس 50"
+   ],
+   "qx55": [
+    "كيو اكس 55"
+   ],
+   "qx60": [
+    "كيو اكس 60"
+   ],
+   "qx80": [
+    "كيو اكس 80"
+   ],
+   "q50": [
+    "كيو 50"
+   ]
+  },
+  "chevrolet": {
+   "": [
+    "شفروليه",
+    "شيفروليت"
+   ]
+  },
+  "land-rover": {
+   "range-rover": [
+    "رينج روفر"
+   ]
+  },
+  "hyundai": {
+   "": [
+    "هونداي"
+   ]
+  }
+ },
+ "makes": [
+  {
+   "id": "toyota",
+   "en": "Toyota",
+   "ar": "تويوتا",
+   "popular": true,
+   "models": [
+    {
+     "id": "land-cruiser",
+     "en": "Land Cruiser",
+     "ar": "لاندكروزر"
+    },
+    {
+     "id": "camry",
+     "en": "Camry",
+     "ar": "كامري"
+    },
+    {
+     "id": "corolla",
+     "en": "Corolla",
+     "ar": "كورولا"
+    },
+    {
+     "id": "prado",
+     "en": "Prado",
+     "ar": "برادو"
+    },
+    {
+     "id": "hilux",
+     "en": "Hilux",
+     "ar": "هايلكس"
+    },
+    {
+     "id": "yaris",
+     "en": "Yaris",
+     "ar": "يارس"
+    },
+    {
+     "id": "rav4",
+     "en": "RAV4",
+     "ar": "راف فور"
+    },
+    {
+     "id": "fortuner",
+     "en": "Fortuner",
+     "ar": "فورتشنر"
+    },
+    {
+     "id": "avalon",
+     "en": "Avalon",
+     "ar": "أفالون"
+    },
+    {
+     "id": "fj-cruiser",
+     "en": "FJ Cruiser",
+     "ar": "إف جي كروزر"
+    },
+    {
+     "id": "highlander",
+     "en": "Highlander",
+     "ar": "هايلاندر"
+    },
+    {
+     "id": "innova",
+     "en": "Innova",
+     "ar": "إنوفا"
+    },
+    {
+     "id": "crown",
+     "en": "Crown",
+     "ar": "كراون"
+    },
+    {
+     "id": "sequoia",
+     "en": "Sequoia",
+     "ar": "سيكويا"
+    },
+    {
+     "id": "tundra",
+     "en": "Tundra",
+     "ar": "تندرا"
+    },
+    {
+     "id": "hiace",
+     "en": "Hiace",
+     "ar": "هايس"
+    },
+    {
+     "id": "raize",
+     "en": "Raize",
+     "ar": "رايز"
+    },
+    {
+     "id": "corolla-cross",
+     "en": "Corolla Cross",
+     "ar": "كورولا كروس"
+    },
+    {
+     "id": "rush",
+     "en": "Rush",
+     "ar": "رش"
+    },
+    {
+     "id": "granvia",
+     "en": "Granvia",
+     "ar": "جرانفيا"
+    },
+    {
+     "id": "supra",
+     "en": "Supra",
+     "ar": "سوبرا"
+    }
+   ]
+  },
+  {
+   "id": "nissan",
+   "en": "Nissan",
+   "ar": "نيسان",
+   "popular": true,
+   "models": [
+    {
+     "id": "patrol",
+     "en": "Patrol",
+     "ar": "باترول"
+    },
+    {
+     "id": "altima",
+     "en": "Altima",
+     "ar": "ألتيما"
+    },
+    {
+     "id": "sunny",
+     "en": "Sunny",
+     "ar": "صني"
+    },
+    {
+     "id": "x-trail",
+     "en": "X-Trail",
+     "ar": "إكس تريل"
+    },
+    {
+     "id": "maxima",
+     "en": "Maxima",
+     "ar": "ماكسيما"
+    },
+    {
+     "id": "pathfinder",
+     "en": "Pathfinder",
+     "ar": "باثفايندر"
+    },
+    {
+     "id": "kicks",
+     "en": "Kicks",
+     "ar": "كيكس"
+    },
+    {
+     "id": "navara",
+     "en": "Navara",
+     "ar": "نافارا"
+    },
+    {
+     "id": "sentra",
+     "en": "Sentra",
+     "ar": "سنترا"
+    },
+    {
+     "id": "patrol-safari",
+     "en": "Patrol Safari",
+     "ar": "باترول سفاري"
+    },
+    {
+     "id": "armada",
+     "en": "Armada",
+     "ar": "أرمادا"
+    },
+    {
+     "id": "juke",
+     "en": "Juke",
+     "ar": "جوك"
+    },
+    {
+     "id": "qashqai",
+     "en": "Qashqai",
+     "ar": "قشقاي"
+    },
+    {
+     "id": "murano",
+     "en": "Murano",
+     "ar": "مورانو"
+    },
+    {
+     "id": "urvan",
+     "en": "Urvan",
+     "ar": "أورفان"
+    },
+    {
+     "id": "z",
+     "en": "Z",
+     "ar": "زد"
+    },
+    {
+     "id": "gt-r",
+     "en": "GT-R",
+     "ar": "جي تي آر"
+    }
+   ]
+  },
+  {
+   "id": "hyundai",
+   "en": "Hyundai",
+   "ar": "هيونداي",
+   "popular": true,
+   "models": [
+    {
+     "id": "elantra",
+     "en": "Elantra",
+     "ar": "إلنترا"
+    },
+    {
+     "id": "sonata",
+     "en": "Sonata",
+     "ar": "سوناتا"
+    },
+    {
+     "id": "accent",
+     "en": "Accent",
+     "ar": "أكسنت"
+    },
+    {
+     "id": "tucson",
+     "en": "Tucson",
+     "ar": "توسان"
+    },
+    {
+     "id": "santa-fe",
+     "en": "Santa Fe",
+     "ar": "سنتافي"
+    },
+    {
+     "id": "creta",
+     "en": "Creta",
+     "ar": "كريتا"
+    },
+    {
+     "id": "palisade",
+     "en": "Palisade",
+     "ar": "باليسيد"
+    },
+    {
+     "id": "azera",
+     "en": "Azera",
+     "ar": "أزيرا"
+    },
+    {
+     "id": "kona",
+     "en": "Kona",
+     "ar": "كونا"
+    },
+    {
+     "id": "venue",
+     "en": "Venue",
+     "ar": "فينيو"
+    },
+    {
+     "id": "staria",
+     "en": "Staria",
+     "ar": "ستاريا"
+    },
+    {
+     "id": "i10",
+     "en": "i10",
+     "ar": "آي 10"
+    },
+    {
+     "id": "ioniq-5",
+     "en": "Ioniq 5",
+     "ar": "أيونيك 5"
+    }
+   ]
+  },
+  {
+   "id": "kia",
+   "en": "Kia",
+   "ar": "كيا",
+   "popular": true,
+   "models": [
+    {
+     "id": "k5",
+     "en": "K5",
+     "ar": "كي 5"
+    },
+    {
+     "id": "cerato",
+     "en": "Cerato",
+     "ar": "سيراتو"
+    },
+    {
+     "id": "sportage",
+     "en": "Sportage",
+     "ar": "سبورتاج"
+    },
+    {
+     "id": "sorento",
+     "en": "Sorento",
+     "ar": "سورينتو"
+    },
+    {
+     "id": "rio",
+     "en": "Rio",
+     "ar": "ريو"
+    },
+    {
+     "id": "telluride",
+     "en": "Telluride",
+     "ar": "تيلورايد"
+    },
+    {
+     "id": "carnival",
+     "en": "Carnival",
+     "ar": "كرنفال"
+    },
+    {
+     "id": "seltos",
+     "en": "Seltos",
+     "ar": "سيلتوس"
+    },
+    {
+     "id": "picanto",
+     "en": "Picanto",
+     "ar": "بيكانتو"
+    },
+    {
+     "id": "pegas",
+     "en": "Pegas",
+     "ar": "بيجاس"
+    },
+    {
+     "id": "k8",
+     "en": "K8",
+     "ar": "كي 8"
+    },
+    {
+     "id": "sonet",
+     "en": "Sonet",
+     "ar": "سونيت"
+    },
+    {
+     "id": "stinger",
+     "en": "Stinger",
+     "ar": "ستينجر"
+    },
+    {
+     "id": "ev6",
+     "en": "EV6",
+     "ar": "إي في 6"
+    },
+    {
+     "id": "optima",
+     "en": "Optima",
+     "ar": "أوبتيما"
+    },
+    {
+     "id": "cadenza",
+     "en": "Cadenza",
+     "ar": "كادينزا"
+    }
+   ]
+  },
+  {
+   "id": "ford",
+   "en": "Ford",
+   "ar": "فورد",
+   "popular": true,
+   "models": [
+    {
+     "id": "f-150",
+     "en": "F-150",
+     "ar": "إف 150"
+    },
+    {
+     "id": "explorer",
+     "en": "Explorer",
+     "ar": "إكسبلورر"
+    },
+    {
+     "id": "expedition",
+     "en": "Expedition",
+     "ar": "إكسبدشن"
+    },
+    {
+     "id": "mustang",
+     "en": "Mustang",
+     "ar": "موستنج"
+    },
+    {
+     "id": "edge",
+     "en": "Edge",
+     "ar": "إيدج"
+    },
+    {
+     "id": "taurus",
+     "en": "Taurus",
+     "ar": "توروس"
+    },
+    {
+     "id": "ranger",
+     "en": "Ranger",
+     "ar": "رينجر"
+    },
+    {
+     "id": "bronco",
+     "en": "Bronco",
+     "ar": "برونكو"
+    },
+    {
+     "id": "territory",
+     "en": "Territory",
+     "ar": "تيريتوري"
+    },
+    {
+     "id": "everest",
+     "en": "Everest",
+     "ar": "إيفرست"
+    },
+    {
+     "id": "escape",
+     "en": "Escape",
+     "ar": "إسكيب"
+    },
+    {
+     "id": "fusion",
+     "en": "Fusion",
+     "ar": "فيوجن"
+    },
+    {
+     "id": "crown-victoria",
+     "en": "Crown Victoria",
+     "ar": "كراون فيكتوريا"
+    }
+   ]
+  },
+  {
+   "id": "chevrolet",
+   "en": "Chevrolet",
+   "ar": "شيفروليه",
+   "popular": true,
+   "models": [
+    {
+     "id": "tahoe",
+     "en": "Tahoe",
+     "ar": "تاهو"
+    },
+    {
+     "id": "suburban",
+     "en": "Suburban",
+     "ar": "سوبربان"
+    },
+    {
+     "id": "silverado",
+     "en": "Silverado",
+     "ar": "سلفرادو"
+    },
+    {
+     "id": "malibu",
+     "en": "Malibu",
+     "ar": "ماليبو"
+    },
+    {
+     "id": "traverse",
+     "en": "Traverse",
+     "ar": "ترافيرس"
+    },
+    {
+     "id": "camaro",
+     "en": "Camaro",
+     "ar": "كمارو"
+    },
+    {
+     "id": "captiva",
+     "en": "Captiva",
+     "ar": "كابتيفا"
+    },
+    {
+     "id": "blazer",
+     "en": "Blazer",
+     "ar": "بليزر"
+    },
+    {
+     "id": "trailblazer",
+     "en": "Trailblazer",
+     "ar": "تريل بليزر"
+    },
+    {
+     "id": "equinox",
+     "en": "Equinox",
+     "ar": "إكوينوكس"
+    },
+    {
+     "id": "impala",
+     "en": "Impala",
+     "ar": "إمبالا"
+    },
+    {
+     "id": "caprice",
+     "en": "Caprice",
+     "ar": "كابريس"
+    },
+    {
+     "id": "corvette",
+     "en": "Corvette",
+     "ar": "كورفيت"
+    },
+    {
+     "id": "groove",
+     "en": "Groove",
+     "ar": "جروف"
+    },
+    {
+     "id": "spark",
+     "en": "Spark",
+     "ar": "سبارك"
+    }
+   ]
+  },
+  {
+   "id": "mercedes-benz",
+   "en": "Mercedes-Benz",
+   "ar": "مرسيدس",
+   "popular": true,
+   "models": [
+    {
+     "id": "c-class",
+     "en": "C-Class",
+     "ar": "الفئة C"
+    },
+    {
+     "id": "e-class",
+     "en": "E-Class",
+     "ar": "الفئة E"
+    },
+    {
+     "id": "s-class",
+     "en": "S-Class",
+     "ar": "الفئة S"
+    },
+    {
+     "id": "g-class",
+     "en": "G-Class",
+     "ar": "الفئة G"
+    },
+    {
+     "id": "gle",
+     "en": "GLE",
+     "ar": "GLE"
+    },
+    {
+     "id": "glc",
+     "en": "GLC",
+     "ar": "GLC"
+    },
+    {
+     "id": "gls",
+     "en": "GLS",
+     "ar": "GLS"
+    },
+    {
+     "id": "a-class",
+     "en": "A-Class",
+     "ar": "الفئة A"
+    },
+    {
+     "id": "cla",
+     "en": "CLA",
+     "ar": "CLA"
+    },
+    {
+     "id": "gla",
+     "en": "GLA",
+     "ar": "GLA"
+    },
+    {
+     "id": "glb",
+     "en": "GLB",
+     "ar": "GLB"
+    },
+    {
+     "id": "cls",
+     "en": "CLS",
+     "ar": "CLS"
+    },
+    {
+     "id": "amg-gt",
+     "en": "AMG GT",
+     "ar": "AMG GT"
+    },
+    {
+     "id": "maybach",
+     "en": "Maybach",
+     "ar": "مايباخ"
+    },
+    {
+     "id": "v-class",
+     "en": "V-Class",
+     "ar": "الفئة V"
+    }
+   ]
+  },
+  {
+   "id": "lexus",
+   "en": "Lexus",
+   "ar": "لكزس",
+   "popular": false,
+   "models": [
+    {
+     "id": "lx",
+     "en": "LX",
+     "ar": "LX"
+    },
+    {
+     "id": "es",
+     "en": "ES",
+     "ar": "ES"
+    },
+    {
+     "id": "rx",
+     "en": "RX",
+     "ar": "RX"
+    },
+    {
+     "id": "gx",
+     "en": "GX",
+     "ar": "GX"
+    },
+    {
+     "id": "is",
+     "en": "IS",
+     "ar": "IS"
+    },
+    {
+     "id": "ls",
+     "en": "LS",
+     "ar": "LS"
+    },
+    {
+     "id": "nx",
+     "en": "NX",
+     "ar": "NX"
+    },
+    {
+     "id": "ux",
+     "en": "UX",
+     "ar": "UX"
+    },
+    {
+     "id": "lc",
+     "en": "LC",
+     "ar": "LC"
+    },
+    {
+     "id": "rc",
+     "en": "RC",
+     "ar": "RC"
+    }
+   ]
+  },
+  {
+   "id": "honda",
+   "en": "Honda",
+   "ar": "هوندا",
+   "popular": false,
+   "models": [
+    {
+     "id": "accord",
+     "en": "Accord",
+     "ar": "أكورد"
+    },
+    {
+     "id": "civic",
+     "en": "Civic",
+     "ar": "سيفيك"
+    },
+    {
+     "id": "cr-v",
+     "en": "CR-V",
+     "ar": "سي آر في"
+    },
+    {
+     "id": "pilot",
+     "en": "Pilot",
+     "ar": "بايلوت"
+    },
+    {
+     "id": "city",
+     "en": "City",
+     "ar": "سيتي"
+    },
+    {
+     "id": "hr-v",
+     "en": "HR-V",
+     "ar": "إتش آر في"
+    },
+    {
+     "id": "odyssey",
+     "en": "Odyssey",
+     "ar": "أوديسي"
+    },
+    {
+     "id": "zr-v",
+     "en": "ZR-V",
+     "ar": "ZR-V"
+    },
+    {
+     "id": "passport",
+     "en": "Passport",
+     "ar": "باسبورت"
+    }
+   ]
+  },
+  {
+   "id": "gmc",
+   "en": "GMC",
+   "ar": "جي إم سي",
+   "popular": false,
+   "models": [
+    {
+     "id": "yukon",
+     "en": "Yukon",
+     "ar": "يوكن"
+    },
+    {
+     "id": "sierra",
+     "en": "Sierra",
+     "ar": "سييرا"
+    },
+    {
+     "id": "acadia",
+     "en": "Acadia",
+     "ar": "أكاديا"
+    },
+    {
+     "id": "terrain",
+     "en": "Terrain",
+     "ar": "تيرين"
+    },
+    {
+     "id": "canyon",
+     "en": "Canyon",
+     "ar": "كانيون"
+    },
+    {
+     "id": "savana",
+     "en": "Savana",
+     "ar": "سافانا"
+    }
+   ]
+  },
+  {
+   "id": "mitsubishi",
+   "en": "Mitsubishi",
+   "ar": "ميتسوبيشي",
+   "popular": false,
+   "models": [
+    {
+     "id": "pajero",
+     "en": "Pajero",
+     "ar": "باجيرو"
+    },
+    {
+     "id": "lancer",
+     "en": "Lancer",
+     "ar": "لانسر"
+    },
+    {
+     "id": "outlander",
+     "en": "Outlander",
+     "ar": "أوتلاندر"
+    },
+    {
+     "id": "l200",
+     "en": "L200",
+     "ar": "إل 200"
+    },
+    {
+     "id": "attrage",
+     "en": "Attrage",
+     "ar": "أتراج"
+    },
+    {
+     "id": "montero-sport",
+     "en": "Montero Sport",
+     "ar": "مونتيرو سبورت"
+    },
+    {
+     "id": "asx",
+     "en": "ASX",
+     "ar": "ASX"
+    },
+    {
+     "id": "xpander",
+     "en": "Xpander",
+     "ar": "إكسباندر"
+    },
+    {
+     "id": "eclipse-cross",
+     "en": "Eclipse Cross",
+     "ar": "إكليبس كروس"
+    }
+   ]
+  },
+  {
+   "id": "mazda",
+   "en": "Mazda",
+   "ar": "مازدا",
+   "popular": false,
+   "models": [
+    {
+     "id": "mazda3",
+     "en": "Mazda3",
+     "ar": "مازدا 3"
+    },
+    {
+     "id": "mazda6",
+     "en": "Mazda6",
+     "ar": "مازدا 6"
+    },
+    {
+     "id": "cx-5",
+     "en": "CX-5",
+     "ar": "CX-5"
+    },
+    {
+     "id": "cx-9",
+     "en": "CX-9",
+     "ar": "CX-9"
+    },
+    {
+     "id": "cx-30",
+     "en": "CX-30",
+     "ar": "CX-30"
+    },
+    {
+     "id": "mazda2",
+     "en": "Mazda2",
+     "ar": "مازدا 2"
+    },
+    {
+     "id": "cx-3",
+     "en": "CX-3",
+     "ar": "CX-3"
+    },
+    {
+     "id": "cx-60",
+     "en": "CX-60",
+     "ar": "CX-60"
+    },
+    {
+     "id": "cx-90",
+     "en": "CX-90",
+     "ar": "CX-90"
+    }
+   ]
+  },
+  {
+   "id": "bmw",
+   "en": "BMW",
+   "ar": "بي إم دبليو",
+   "popular": false,
+   "models": [
+    {
+     "id": "3-series",
+     "en": "3 Series",
+     "ar": "الفئة الثالثة"
+    },
+    {
+     "id": "5-series",
+     "en": "5 Series",
+     "ar": "الفئة الخامسة"
+    },
+    {
+     "id": "7-series",
+     "en": "7 Series",
+     "ar": "الفئة السابعة"
+    },
+    {
+     "id": "x3",
+     "en": "X3",
+     "ar": "X3"
+    },
+    {
+     "id": "x5",
+     "en": "X5",
+     "ar": "X5"
+    },
+    {
+     "id": "x6",
+     "en": "X6",
+     "ar": "X6"
+    },
+    {
+     "id": "x7",
+     "en": "X7",
+     "ar": "X7"
+    },
+    {
+     "id": "4-series",
+     "en": "4 Series",
+     "ar": "الفئة الرابعة"
+    },
+    {
+     "id": "8-series",
+     "en": "8 Series",
+     "ar": "الفئة الثامنة"
+    },
+    {
+     "id": "x1",
+     "en": "X1",
+     "ar": "X1"
+    },
+    {
+     "id": "x4",
+     "en": "X4",
+     "ar": "X4"
+    },
+    {
+     "id": "z4",
+     "en": "Z4",
+     "ar": "Z4"
+    }
+   ]
+  },
+  {
+   "id": "audi",
+   "en": "Audi",
+   "ar": "أودي",
+   "popular": false,
+   "models": [
+    {
+     "id": "a4",
+     "en": "A4",
+     "ar": "A4"
+    },
+    {
+     "id": "a6",
+     "en": "A6",
+     "ar": "A6"
+    },
+    {
+     "id": "a8",
+     "en": "A8",
+     "ar": "A8"
+    },
+    {
+     "id": "q5",
+     "en": "Q5",
+     "ar": "Q5"
+    },
+    {
+     "id": "q7",
+     "en": "Q7",
+     "ar": "Q7"
+    },
+    {
+     "id": "q8",
+     "en": "Q8",
+     "ar": "Q8"
+    },
+    {
+     "id": "a3",
+     "en": "A3",
+     "ar": "A3"
+    },
+    {
+     "id": "a5",
+     "en": "A5",
+     "ar": "A5"
+    },
+    {
+     "id": "a7",
+     "en": "A7",
+     "ar": "A7"
+    },
+    {
+     "id": "q3",
+     "en": "Q3",
+     "ar": "Q3"
+    },
+    {
+     "id": "e-tron",
+     "en": "e-tron",
+     "ar": "إي ترون"
+    }
+   ]
+  },
+  {
+   "id": "volkswagen",
+   "en": "Volkswagen",
+   "ar": "فولكس فاجن",
+   "popular": false,
+   "models": [
+    {
+     "id": "golf",
+     "en": "Golf",
+     "ar": "جولف"
+    },
+    {
+     "id": "passat",
+     "en": "Passat",
+     "ar": "باسات"
+    },
+    {
+     "id": "tiguan",
+     "en": "Tiguan",
+     "ar": "تيجوان"
+    },
+    {
+     "id": "touareg",
+     "en": "Touareg",
+     "ar": "طوارق"
+    },
+    {
+     "id": "jetta",
+     "en": "Jetta",
+     "ar": "جيتا"
+    },
+    {
+     "id": "teramont",
+     "en": "Teramont",
+     "ar": "تيرامونت"
+    },
+    {
+     "id": "t-roc",
+     "en": "T-Roc",
+     "ar": "تي روك"
+    },
+    {
+     "id": "arteon",
+     "en": "Arteon",
+     "ar": "أرتيون"
+    },
+    {
+     "id": "id-4",
+     "en": "ID.4",
+     "ar": "ID.4"
+    }
+   ]
+  },
+  {
+   "id": "land-rover",
+   "en": "Land Rover",
+   "ar": "لاند روفر",
+   "popular": false,
+   "models": [
+    {
+     "id": "range-rover",
+     "en": "Range Rover",
+     "ar": "رنج روفر"
+    },
+    {
+     "id": "range-rover-sport",
+     "en": "Range Rover Sport",
+     "ar": "رنج روفر سبورت"
+    },
+    {
+     "id": "range-rover-velar",
+     "en": "Range Rover Velar",
+     "ar": "رنج روفر فيلار"
+    },
+    {
+     "id": "defender",
+     "en": "Defender",
+     "ar": "ديفندر"
+    },
+    {
+     "id": "discovery",
+     "en": "Discovery",
+     "ar": "ديسكفري"
+    },
+    {
+     "id": "range-rover-evoque",
+     "en": "Range Rover Evoque",
+     "ar": "رينج روفر إيفوك"
+    },
+    {
+     "id": "discovery-sport",
+     "en": "Discovery Sport",
+     "ar": "ديسكفري سبورت"
+    }
+   ]
+  },
+  {
+   "id": "jeep",
+   "en": "Jeep",
+   "ar": "جيب",
+   "popular": false,
+   "models": [
+    {
+     "id": "wrangler",
+     "en": "Wrangler",
+     "ar": "رانجلر"
+    },
+    {
+     "id": "grand-cherokee",
+     "en": "Grand Cherokee",
+     "ar": "جراند شيروكي"
+    },
+    {
+     "id": "cherokee",
+     "en": "Cherokee",
+     "ar": "شيروكي"
+    },
+    {
+     "id": "gladiator",
+     "en": "Gladiator",
+     "ar": "جلاديتور"
+    },
+    {
+     "id": "compass",
+     "en": "Compass",
+     "ar": "كومباس"
+    },
+    {
+     "id": "renegade",
+     "en": "Renegade",
+     "ar": "رينيجيد"
+    },
+    {
+     "id": "grand-wagoneer",
+     "en": "Grand Wagoneer",
+     "ar": "جراند واجونير"
+    }
+   ]
+  },
+  {
+   "id": "dodge",
+   "en": "Dodge",
+   "ar": "دودج",
+   "popular": false,
+   "models": [
+    {
+     "id": "charger",
+     "en": "Charger",
+     "ar": "تشارجر"
+    },
+    {
+     "id": "challenger",
+     "en": "Challenger",
+     "ar": "تشالنجر"
+    },
+    {
+     "id": "durango",
+     "en": "Durango",
+     "ar": "دورانجو"
+    }
+   ]
+  },
+  {
+   "id": "suzuki",
+   "en": "Suzuki",
+   "ar": "سوزوكي",
+   "popular": false,
+   "models": [
+    {
+     "id": "swift",
+     "en": "Swift",
+     "ar": "سويفت"
+    },
+    {
+     "id": "jimny",
+     "en": "Jimny",
+     "ar": "جيمني"
+    },
+    {
+     "id": "vitara",
+     "en": "Vitara",
+     "ar": "فيتارا"
+    },
+    {
+     "id": "dzire",
+     "en": "Dzire",
+     "ar": "ديزاير"
+    },
+    {
+     "id": "ertiga",
+     "en": "Ertiga",
+     "ar": "إرتيجا"
+    },
+    {
+     "id": "baleno",
+     "en": "Baleno",
+     "ar": "بالينو"
+    },
+    {
+     "id": "ciaz",
+     "en": "Ciaz",
+     "ar": "سياز"
+    },
+    {
+     "id": "grand-vitara",
+     "en": "Grand Vitara",
+     "ar": "جراند فيتارا"
+    },
+    {
+     "id": "fronx",
+     "en": "Fronx",
+     "ar": "فرونكس"
+    }
+   ]
+  },
+  {
+   "id": "isuzu",
+   "en": "Isuzu",
+   "ar": "إيسوزو",
+   "popular": false,
+   "models": [
+    {
+     "id": "d-max",
+     "en": "D-Max",
+     "ar": "دي ماكس"
+    },
+    {
+     "id": "mu-x",
+     "en": "MU-X",
+     "ar": "إم يو إكس"
+    }
+   ]
+  },
+  {
+   "id": "infiniti",
+   "en": "Infiniti",
+   "ar": "إنفينيتي",
+   "popular": false,
+   "models": [
+    {
+     "id": "qx80",
+     "en": "QX80",
+     "ar": "QX80"
+    },
+    {
+     "id": "qx60",
+     "en": "QX60",
+     "ar": "QX60"
+    },
+    {
+     "id": "qx50",
+     "en": "QX50",
+     "ar": "QX50"
+    },
+    {
+     "id": "q50",
+     "en": "Q50",
+     "ar": "Q50"
+    },
+    {
+     "id": "qx55",
+     "en": "QX55",
+     "ar": "QX55"
+    }
+   ]
+  },
+  {
+   "id": "genesis",
+   "en": "Genesis",
+   "ar": "جينيسيس",
+   "popular": false,
+   "models": [
+    {
+     "id": "g70",
+     "en": "G70",
+     "ar": "G70"
+    },
+    {
+     "id": "g80",
+     "en": "G80",
+     "ar": "G80"
+    },
+    {
+     "id": "g90",
+     "en": "G90",
+     "ar": "G90"
+    },
+    {
+     "id": "gv70",
+     "en": "GV70",
+     "ar": "GV70"
+    },
+    {
+     "id": "gv80",
+     "en": "GV80",
+     "ar": "GV80"
+    }
+   ]
+  },
+  {
+   "id": "mg",
+   "en": "MG",
+   "ar": "إم جي",
+   "popular": false,
+   "models": [
+    {
+     "id": "mg5",
+     "en": "MG5",
+     "ar": "MG5"
+    },
+    {
+     "id": "zs",
+     "en": "ZS",
+     "ar": "ZS"
+    },
+    {
+     "id": "hs",
+     "en": "HS",
+     "ar": "HS"
+    },
+    {
+     "id": "rx5",
+     "en": "RX5",
+     "ar": "RX5"
+    },
+    {
+     "id": "gt",
+     "en": "GT",
+     "ar": "GT"
+    },
+    {
+     "id": "mg6",
+     "en": "MG6",
+     "ar": "MG6"
+    },
+    {
+     "id": "mg7",
+     "en": "MG7",
+     "ar": "MG7"
+    },
+    {
+     "id": "rx8",
+     "en": "RX8",
+     "ar": "RX8"
+    },
+    {
+     "id": "mg-one",
+     "en": "MG One",
+     "ar": "MG ون"
+    }
+   ]
+  },
+  {
+   "id": "changan",
+   "en": "Changan",
+   "ar": "شانجان",
+   "popular": false,
+   "models": [
+    {
+     "id": "cs35-plus",
+     "en": "CS35 Plus",
+     "ar": "CS35 بلس"
+    },
+    {
+     "id": "cs75-plus",
+     "en": "CS75 Plus",
+     "ar": "CS75 بلس"
+    },
+    {
+     "id": "cs85",
+     "en": "CS85",
+     "ar": "CS85"
+    },
+    {
+     "id": "alsvin",
+     "en": "Alsvin",
+     "ar": "السفن"
+    },
+    {
+     "id": "uni-t",
+     "en": "UNI-T",
+     "ar": "يوني تي"
+    },
+    {
+     "id": "cs55-plus",
+     "en": "CS55 Plus",
+     "ar": "CS55 بلس"
+    },
+    {
+     "id": "cs95",
+     "en": "CS95",
+     "ar": "CS95"
+    },
+    {
+     "id": "uni-k",
+     "en": "UNI-K",
+     "ar": "يوني كي"
+    },
+    {
+     "id": "uni-v",
+     "en": "UNI-V",
+     "ar": "يوني في"
+    },
+    {
+     "id": "eado-plus",
+     "en": "Eado Plus",
+     "ar": "إيدو بلس"
+    }
+   ]
+  },
+  {
+   "id": "geely",
+   "en": "Geely",
+   "ar": "جيلي",
+   "popular": false,
+   "models": [
+    {
+     "id": "coolray",
+     "en": "Coolray",
+     "ar": "كولراي"
+    },
+    {
+     "id": "emgrand",
+     "en": "Emgrand",
+     "ar": "إمجراند"
+    },
+    {
+     "id": "tugella",
+     "en": "Tugella",
+     "ar": "توجيلا"
+    },
+    {
+     "id": "monjaro",
+     "en": "Monjaro",
+     "ar": "مونجارو"
+    },
+    {
+     "id": "okavango",
+     "en": "Okavango",
+     "ar": "أوكافانجو"
+    },
+    {
+     "id": "starray",
+     "en": "Starray",
+     "ar": "ستار راي"
+    },
+    {
+     "id": "azkarra",
+     "en": "Azkarra",
+     "ar": "أزكارا"
+    },
+    {
+     "id": "preface",
+     "en": "Preface",
+     "ar": "بريفيس"
+    },
+    {
+     "id": "gx3-pro",
+     "en": "GX3 Pro",
+     "ar": "GX3 برو"
+    }
+   ]
+  },
+  {
+   "id": "cadillac",
+   "en": "Cadillac",
+   "ar": "كاديلاك",
+   "popular": false,
+   "models": [
+    {
+     "id": "escalade",
+     "en": "Escalade",
+     "ar": "إسكاليد"
+    },
+    {
+     "id": "xt5",
+     "en": "XT5",
+     "ar": "XT5"
+    },
+    {
+     "id": "xt6",
+     "en": "XT6",
+     "ar": "XT6"
+    },
+    {
+     "id": "ct5",
+     "en": "CT5",
+     "ar": "CT5"
+    },
+    {
+     "id": "ct4",
+     "en": "CT4",
+     "ar": "CT4"
+    },
+    {
+     "id": "xt4",
+     "en": "XT4",
+     "ar": "XT4"
+    },
+    {
+     "id": "ct6",
+     "en": "CT6",
+     "ar": "CT6"
+    }
+   ]
+  },
+  {
+   "id": "porsche",
+   "en": "Porsche",
+   "ar": "بورش",
+   "popular": false,
+   "models": [
+    {
+     "id": "cayenne",
+     "en": "Cayenne",
+     "ar": "كايين"
+    },
+    {
+     "id": "macan",
+     "en": "Macan",
+     "ar": "ماكان"
+    },
+    {
+     "id": "panamera",
+     "en": "Panamera",
+     "ar": "باناميرا"
+    },
+    {
+     "id": "911",
+     "en": "911",
+     "ar": "911"
+    },
+    {
+     "id": "taycan",
+     "en": "Taycan",
+     "ar": "تايكان"
+    },
+    {
+     "id": "718",
+     "en": "718",
+     "ar": "718"
+    }
+   ]
+  },
+  {
+   "id": "haval",
+   "en": "Haval",
+   "ar": "هافال",
+   "popular": false,
+   "models": [
+    {
+     "id": "h6",
+     "en": "H6",
+     "ar": "H6"
+    },
+    {
+     "id": "jolion",
+     "en": "Jolion",
+     "ar": "جوليون"
+    },
+    {
+     "id": "h9",
+     "en": "H9",
+     "ar": "H9"
+    },
+    {
+     "id": "dargo",
+     "en": "Dargo",
+     "ar": "دارجو"
+    }
+   ]
+  },
+  {
+   "id": "chery",
+   "en": "Chery",
+   "ar": "شيري",
+   "popular": false,
+   "models": [
+    {
+     "id": "tiggo-4-pro",
+     "en": "Tiggo 4 Pro",
+     "ar": "تيجو 4 برو"
+    },
+    {
+     "id": "tiggo-7-pro",
+     "en": "Tiggo 7 Pro",
+     "ar": "تيجو 7 برو"
+    },
+    {
+     "id": "tiggo-8-pro",
+     "en": "Tiggo 8 Pro",
+     "ar": "تيجو 8 برو"
+    },
+    {
+     "id": "arrizo-6",
+     "en": "Arrizo 6",
+     "ar": "أريزو 6"
+    }
+   ]
+  },
+  {
+   "id": "jetour",
+   "en": "Jetour",
+   "ar": "جيتور",
+   "popular": false,
+   "models": [
+    {
+     "id": "x70",
+     "en": "X70",
+     "ar": "X70"
+    },
+    {
+     "id": "x90-plus",
+     "en": "X90 Plus",
+     "ar": "X90 بلس"
+    },
+    {
+     "id": "dashing",
+     "en": "Dashing",
+     "ar": "داشينج"
+    },
+    {
+     "id": "t2",
+     "en": "T2",
+     "ar": "T2"
+    }
+   ]
+  },
+  {
+   "id": "byd",
+   "en": "BYD",
+   "ar": "بي واي دي",
+   "popular": false,
+   "models": [
+    {
+     "id": "atto-3",
+     "en": "Atto 3",
+     "ar": "أتو 3"
+    },
+    {
+     "id": "han",
+     "en": "Han",
+     "ar": "هان"
+    },
+    {
+     "id": "seal",
+     "en": "Seal",
+     "ar": "سيل"
+    },
+    {
+     "id": "song-plus",
+     "en": "Song Plus",
+     "ar": "سونغ بلس"
+    }
+   ]
+  },
+  {
+   "id": "gac",
+   "en": "GAC",
+   "ar": "جي إيه سي",
+   "popular": false,
+   "models": [
+    {
+     "id": "gs3",
+     "en": "GS3",
+     "ar": "GS3"
+    },
+    {
+     "id": "gs8",
+     "en": "GS8",
+     "ar": "GS8"
+    },
+    {
+     "id": "empow",
+     "en": "Empow",
+     "ar": "إمباو"
+    },
+    {
+     "id": "gn8",
+     "en": "GN8",
+     "ar": "GN8"
+    }
+   ]
+  },
+  {
+   "id": "hongqi",
+   "en": "Hongqi",
+   "ar": "هونشي",
+   "popular": false,
+   "models": [
+    {
+     "id": "h5",
+     "en": "H5",
+     "ar": "H5"
+    },
+    {
+     "id": "h9",
+     "en": "H9",
+     "ar": "H9"
+    },
+    {
+     "id": "hs5",
+     "en": "HS5",
+     "ar": "HS5"
+    },
+    {
+     "id": "e-hs9",
+     "en": "E-HS9",
+     "ar": "E-HS9"
+    }
+   ]
+  },
+  {
+   "id": "exeed",
+   "en": "Exeed",
+   "ar": "إكسيد",
+   "popular": false,
+   "models": [
+    {
+     "id": "txl",
+     "en": "TXL",
+     "ar": "TXL"
+    },
+    {
+     "id": "vx",
+     "en": "VX",
+     "ar": "VX"
+    },
+    {
+     "id": "rx",
+     "en": "RX",
+     "ar": "RX"
+    },
+    {
+     "id": "lx",
+     "en": "LX",
+     "ar": "LX"
+    }
+   ]
+  },
+  {
+   "id": "tank",
+   "en": "Tank",
+   "ar": "تانك",
+   "popular": false,
+   "models": [
+    {
+     "id": "300",
+     "en": "300",
+     "ar": "300"
+    },
+    {
+     "id": "500",
+     "en": "500",
+     "ar": "500"
+    }
+   ]
+  },
+  {
+   "id": "great-wall",
+   "en": "Great Wall",
+   "ar": "جريت وول",
+   "popular": false,
+   "models": [
+    {
+     "id": "poer",
+     "en": "Poer",
+     "ar": "باور"
+    },
+    {
+     "id": "wingle",
+     "en": "Wingle",
+     "ar": "وينجل"
+    }
+   ]
+  },
+  {
+   "id": "baic",
+   "en": "BAIC",
+   "ar": "بايك",
+   "popular": false,
+   "models": [
+    {
+     "id": "x7",
+     "en": "X7",
+     "ar": "X7"
+    },
+    {
+     "id": "bj40",
+     "en": "BJ40",
+     "ar": "BJ40"
+    },
+    {
+     "id": "x55",
+     "en": "X55",
+     "ar": "X55"
+    }
+   ]
+  },
+  {
+   "id": "jac",
+   "en": "JAC",
+   "ar": "جاك",
+   "popular": false,
+   "models": [
+    {
+     "id": "j7",
+     "en": "J7",
+     "ar": "J7"
+    },
+    {
+     "id": "js4",
+     "en": "JS4",
+     "ar": "JS4"
+    },
+    {
+     "id": "t8",
+     "en": "T8",
+     "ar": "T8"
+    }
+   ]
+  },
+  {
+   "id": "bestune",
+   "en": "Bestune",
+   "ar": "بيستون",
+   "popular": false,
+   "models": [
+    {
+     "id": "t77",
+     "en": "T77",
+     "ar": "T77"
+    },
+    {
+     "id": "t99",
+     "en": "T99",
+     "ar": "T99"
+    },
+    {
+     "id": "b70",
+     "en": "B70",
+     "ar": "B70"
+    }
+   ]
+  },
+  {
+   "id": "ram",
+   "en": "Ram",
+   "ar": "رام",
+   "popular": false,
+   "models": [
+    {
+     "id": "1500",
+     "en": "1500",
+     "ar": "1500"
+    },
+    {
+     "id": "2500",
+     "en": "2500",
+     "ar": "2500"
+    }
+   ]
+  },
+  {
+   "id": "chrysler",
+   "en": "Chrysler",
+   "ar": "كرايسلر",
+   "popular": false,
+   "models": [
+    {
+     "id": "300c",
+     "en": "300C",
+     "ar": "300C"
+    },
+    {
+     "id": "pacifica",
+     "en": "Pacifica",
+     "ar": "باسيفيكا"
+    }
+   ]
+  },
+  {
+   "id": "lincoln",
+   "en": "Lincoln",
+   "ar": "لينكون",
+   "popular": false,
+   "models": [
+    {
+     "id": "navigator",
+     "en": "Navigator",
+     "ar": "نافيجيتور"
+    },
+    {
+     "id": "aviator",
+     "en": "Aviator",
+     "ar": "أفياتور"
+    },
+    {
+     "id": "nautilus",
+     "en": "Nautilus",
+     "ar": "نوتيلوس"
+    },
+    {
+     "id": "corsair",
+     "en": "Corsair",
+     "ar": "كورسير"
+    }
+   ]
+  },
+  {
+   "id": "tesla",
+   "en": "Tesla",
+   "ar": "تسلا",
+   "popular": false,
+   "models": [
+    {
+     "id": "model-3",
+     "en": "Model 3",
+     "ar": "موديل 3"
+    },
+    {
+     "id": "model-y",
+     "en": "Model Y",
+     "ar": "موديل Y"
+    },
+    {
+     "id": "model-s",
+     "en": "Model S",
+     "ar": "موديل S"
+    },
+    {
+     "id": "model-x",
+     "en": "Model X",
+     "ar": "موديل X"
+    }
+   ]
+  },
+  {
+   "id": "volvo",
+   "en": "Volvo",
+   "ar": "فولفو",
+   "popular": false,
+   "models": [
+    {
+     "id": "xc40",
+     "en": "XC40",
+     "ar": "XC40"
+    },
+    {
+     "id": "xc60",
+     "en": "XC60",
+     "ar": "XC60"
+    },
+    {
+     "id": "xc90",
+     "en": "XC90",
+     "ar": "XC90"
+    },
+    {
+     "id": "s60",
+     "en": "S60",
+     "ar": "S60"
+    },
+    {
+     "id": "s90",
+     "en": "S90",
+     "ar": "S90"
+    }
+   ]
+  },
+  {
+   "id": "jaguar",
+   "en": "Jaguar",
+   "ar": "جاكوار",
+   "popular": false,
+   "models": [
+    {
+     "id": "f-pace",
+     "en": "F-Pace",
+     "ar": "إف بيس"
+    },
+    {
+     "id": "e-pace",
+     "en": "E-Pace",
+     "ar": "إي بيس"
+    },
+    {
+     "id": "xf",
+     "en": "XF",
+     "ar": "XF"
+    },
+    {
+     "id": "xe",
+     "en": "XE",
+     "ar": "XE"
+    },
+    {
+     "id": "f-type",
+     "en": "F-Type",
+     "ar": "إف تايب"
+    }
+   ]
+  },
+  {
+   "id": "mini",
+   "en": "Mini",
+   "ar": "ميني",
+   "popular": false,
+   "models": [
+    {
+     "id": "cooper",
+     "en": "Cooper",
+     "ar": "كوبر"
+    },
+    {
+     "id": "countryman",
+     "en": "Countryman",
+     "ar": "كنتريمان"
+    },
+    {
+     "id": "clubman",
+     "en": "Clubman",
+     "ar": "كلوبمان"
+    }
+   ]
+  },
+  {
+   "id": "peugeot",
+   "en": "Peugeot",
+   "ar": "بيجو",
+   "popular": false,
+   "models": [
+    {
+     "id": "208",
+     "en": "208",
+     "ar": "208"
+    },
+    {
+     "id": "2008",
+     "en": "2008",
+     "ar": "2008"
+    },
+    {
+     "id": "3008",
+     "en": "3008",
+     "ar": "3008"
+    },
+    {
+     "id": "5008",
+     "en": "5008",
+     "ar": "5008"
+    },
+    {
+     "id": "508",
+     "en": "508",
+     "ar": "508"
+    }
+   ]
+  },
+  {
+   "id": "renault",
+   "en": "Renault",
+   "ar": "رينو",
+   "popular": false,
+   "models": [
+    {
+     "id": "duster",
+     "en": "Duster",
+     "ar": "داستر"
+    },
+    {
+     "id": "koleos",
+     "en": "Koleos",
+     "ar": "كوليوس"
+    },
+    {
+     "id": "megane",
+     "en": "Megane",
+     "ar": "ميجان"
+    },
+    {
+     "id": "symbol",
+     "en": "Symbol",
+     "ar": "سيمبول"
+    },
+    {
+     "id": "captur",
+     "en": "Captur",
+     "ar": "كابتشر"
+    }
+   ]
+  },
+  {
+   "id": "citroen",
+   "en": "Citroën",
+   "ar": "ستروين",
+   "popular": false,
+   "models": [
+    {
+     "id": "c3",
+     "en": "C3",
+     "ar": "C3"
+    },
+    {
+     "id": "c4",
+     "en": "C4",
+     "ar": "C4"
+    },
+    {
+     "id": "c5-aircross",
+     "en": "C5 Aircross",
+     "ar": "C5 إيركروس"
+    }
+   ]
+  },
+  {
+   "id": "fiat",
+   "en": "Fiat",
+   "ar": "فيات",
+   "popular": false,
+   "models": [
+    {
+     "id": "500",
+     "en": "500",
+     "ar": "500"
+    },
+    {
+     "id": "tipo",
+     "en": "Tipo",
+     "ar": "تيبو"
+    }
+   ]
+  },
+  {
+   "id": "skoda",
+   "en": "Škoda",
+   "ar": "سكودا",
+   "popular": false,
+   "models": [
+    {
+     "id": "octavia",
+     "en": "Octavia",
+     "ar": "أوكتافيا"
+    },
+    {
+     "id": "superb",
+     "en": "Superb",
+     "ar": "سوبيرب"
+    },
+    {
+     "id": "kodiaq",
+     "en": "Kodiaq",
+     "ar": "كودياك"
+    },
+    {
+     "id": "karoq",
+     "en": "Karoq",
+     "ar": "كاروك"
+    }
+   ]
+  },
+  {
+   "id": "subaru",
+   "en": "Subaru",
+   "ar": "سوبارو",
+   "popular": false,
+   "models": [
+    {
+     "id": "forester",
+     "en": "Forester",
+     "ar": "فورستر"
+    },
+    {
+     "id": "outback",
+     "en": "Outback",
+     "ar": "أوتباك"
+    },
+    {
+     "id": "xv",
+     "en": "XV",
+     "ar": "XV"
+    },
+    {
+     "id": "wrx",
+     "en": "WRX",
+     "ar": "WRX"
+    },
+    {
+     "id": "impreza",
+     "en": "Impreza",
+     "ar": "إمبريزا"
+    }
+   ]
+  },
+  {
+   "id": "maserati",
+   "en": "Maserati",
+   "ar": "مازيراتي",
+   "popular": false,
+   "models": [
+    {
+     "id": "ghibli",
+     "en": "Ghibli",
+     "ar": "جيبلي"
+    },
+    {
+     "id": "levante",
+     "en": "Levante",
+     "ar": "ليفانتي"
+    },
+    {
+     "id": "quattroporte",
+     "en": "Quattroporte",
+     "ar": "كواتروبورتيه"
+    },
+    {
+     "id": "grecale",
+     "en": "Grecale",
+     "ar": "جريكالي"
+    }
+   ]
+  },
+  {
+   "id": "bentley",
+   "en": "Bentley",
+   "ar": "بنتلي",
+   "popular": false,
+   "models": [
+    {
+     "id": "bentayga",
+     "en": "Bentayga",
+     "ar": "بنتايجا"
+    },
+    {
+     "id": "continental-gt",
+     "en": "Continental GT",
+     "ar": "كونتيننتال GT"
+    },
+    {
+     "id": "flying-spur",
+     "en": "Flying Spur",
+     "ar": "فلاينج سبير"
+    }
+   ]
+  },
+  {
+   "id": "rolls-royce",
+   "en": "Rolls-Royce",
+   "ar": "رولز رويس",
+   "popular": false,
+   "models": [
+    {
+     "id": "cullinan",
+     "en": "Cullinan",
+     "ar": "كولينان"
+    },
+    {
+     "id": "ghost",
+     "en": "Ghost",
+     "ar": "جوست"
+    },
+    {
+     "id": "phantom",
+     "en": "Phantom",
+     "ar": "فانتوم"
+    }
+   ]
+  },
+  {
+   "id": "ferrari",
+   "en": "Ferrari",
+   "ar": "فيراري",
+   "popular": false,
+   "models": [
+    {
+     "id": "roma",
+     "en": "Roma",
+     "ar": "روما"
+    },
+    {
+     "id": "296-gtb",
+     "en": "296 GTB",
+     "ar": "296 GTB"
+    },
+    {
+     "id": "sf90",
+     "en": "SF90",
+     "ar": "SF90"
+    },
+    {
+     "id": "purosangue",
+     "en": "Purosangue",
+     "ar": "بوروسانجوي"
+    },
+    {
+     "id": "f8",
+     "en": "F8",
+     "ar": "F8"
+    }
+   ]
+  },
+  {
+   "id": "lamborghini",
+   "en": "Lamborghini",
+   "ar": "لامبورجيني",
+   "popular": false,
+   "models": [
+    {
+     "id": "urus",
+     "en": "Urus",
+     "ar": "أوروس"
+    },
+    {
+     "id": "hurac-n",
+     "en": "Huracán",
+     "ar": "هوراكان"
+    },
+    {
+     "id": "aventador",
+     "en": "Aventador",
+     "ar": "أفينتادور"
+    }
+   ]
+  },
+  {
+   "id": "aston-martin",
+   "en": "Aston Martin",
+   "ar": "أستون مارتن",
+   "popular": false,
+   "models": [
+    {
+     "id": "dbx",
+     "en": "DBX",
+     "ar": "DBX"
+    },
+    {
+     "id": "vantage",
+     "en": "Vantage",
+     "ar": "فانتاج"
+    },
+    {
+     "id": "db11",
+     "en": "DB11",
+     "ar": "DB11"
+    }
+   ]
+  },
+  {
+   "id": "mclaren",
+   "en": "McLaren",
+   "ar": "مكلارين",
+   "popular": false,
+   "models": [
+    {
+     "id": "720s",
+     "en": "720S",
+     "ar": "720S"
+    },
+    {
+     "id": "artura",
+     "en": "Artura",
+     "ar": "أرتورا"
+    },
+    {
+     "id": "gt",
+     "en": "GT",
+     "ar": "GT"
+    }
+   ]
+  },
+  {
+   "id": "alfa-romeo",
+   "en": "Alfa Romeo",
+   "ar": "ألفا روميو",
+   "popular": false,
+   "models": [
+    {
+     "id": "giulia",
+     "en": "Giulia",
+     "ar": "جوليا"
+    },
+    {
+     "id": "stelvio",
+     "en": "Stelvio",
+     "ar": "ستيلفيو"
+    }
+   ]
+  },
+  {
+   "id": "daihatsu",
+   "en": "Daihatsu",
+   "ar": "دايهاتسو",
+   "popular": false,
+   "models": [
+    {
+     "id": "terios",
+     "en": "Terios",
+     "ar": "تيريوس"
+    },
+    {
+     "id": "sirion",
+     "en": "Sirion",
+     "ar": "سيريون"
+    }
+   ]
+  },
+  {
+   "id": "ssangyong",
+   "en": "SsangYong",
+   "ar": "سانغ يونغ",
+   "popular": false,
+   "models": [
+    {
+     "id": "rexton",
+     "en": "Rexton",
+     "ar": "ريكستون"
+    },
+    {
+     "id": "tivoli",
+     "en": "Tivoli",
+     "ar": "تيفولي"
+    }
+   ]
+  },
+  {
+   "id": "hummer",
+   "en": "Hummer",
+   "ar": "همر",
+   "popular": false,
+   "models": [
+    {
+     "id": "h2",
+     "en": "H2",
+     "ar": "H2"
+    },
+    {
+     "id": "h3",
+     "en": "H3",
+     "ar": "H3"
+    },
+    {
+     "id": "ev",
+     "en": "EV",
+     "ar": "EV"
+    }
+   ]
+  },
+  {
+   "id": "lucid",
+   "en": "Lucid",
+   "ar": "لوسيد",
+   "popular": false,
+   "models": [
+    {
+     "id": "air",
+     "en": "Air",
+     "ar": "إير"
+    },
+    {
+     "id": "gravity",
+     "en": "Gravity",
+     "ar": "جرافيتي"
+    }
+   ]
+  }
+ ]
+}
