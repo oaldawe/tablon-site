@@ -638,7 +638,7 @@
       "pictureURL": "https://files.moci.gov.kw/mocisite/assets/content/uploads/2026/10/799cc12f-bde8-450d-9bee-ad7c11a40382.jpg",
       "date": "2026-09-24",
       "readAt": "2026-11-28",
-      "status": "ready",
+      "status": "needs-review",
       "notes": [
         "The three sections were not read in order: check the fault and the remedy against the picture.",
         "No model of the app's list was found for Jaguar."
@@ -648,22 +648,9 @@
         "(2021) I-PACE جاكوار"
       ],
       "category": "electrical",
-      "fault": "اكتشفت جاكوار عطل في الحمل الحراري الزائد في حزمة بطارية الجر ذات الجهد العالي (HV). قد تتعرض المركبات المشمولة بحملة الاستدعاء إلى تصاعد الدخان أو نشوب حريق.",
-      "remedy": "ستبادر شركة السيارات الكويتية للتجارة (الزياني) الى الإتصال بعملائها المعنيين لإبلاغهم حول هذا الاستدعاء لإصلاح الخلل. ويرجى من العملاء الكرام الذين يملكون سيارة جاكوار I-PACE سنة صنع (2021) مراجعة الوكيل.\n\nيرجى مراجعة شركة السيارات الكويتية للتجارة (الزياني).\nتلفون: +965 1808010\nفاكس: +965 24765638",
-      "entries": [
-        {
-          "id": "kw-799cc12f-bde8-450d-9bee-ad7c11a40382",
-          "make": "Jaguar",
-          "models": [
-            "I-PACE"
-          ],
-          "years": [
-            2021,
-            2021
-          ]
-        }
-      ],
-      "review": "Checked against the picture: the remedy was read into the contact section and is put back. I-PACE is not in the app's list yet."
+      "fault": "اكتشفت جاكوار عطل في الحمل الحراري الزائد في حزمة بطارية الجر ذات الجهد العالي (HV). قد تتعرض المركبات المشمولة حملة الاستدعاء إلى تصاعد الدخان أو نشوب حريق.",
+      "remedy": "ستبادر شركة السيارات الكويتية للتجارة (الزياني) الى الإتصال\nبعملائها المعنيين لإبلاغهم حول هذا الاستدعاء لإصلاح الخلل.\nويرجى من العملاء الكرام الذين يملكون سيارة جاكوار I-PACE\nسنة صنع ( 2021) مراجعة الوكيل.\nيرجى مراجعة شركة السيارات الكويتية للتجارة ( الزياني ).\nنلفون: 965 1808010+\nفاكس: 965 24765638+",
+      "entries": []
     }
   ]
 }
